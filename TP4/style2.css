@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    color: crimson;
+}
+
+form{
+    max-width: 400px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],input[type="mail"],textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+input[type="submit"]{
+    background-color: lightgreen;
+    color: burlywood;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+input[type="submit"]:hover{
+    background-color:brown ;
+}
+
