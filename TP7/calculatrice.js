@@ -12,7 +12,8 @@ function addition(){
 function soustraction(){
     var a = document.getElementById("t1").value;
     var b = document.getElementById("t2").value;
-    var c = Number(a)-Number(b);
+    var d = document.getElementById("t5").value;
+    var c = Number(a)-Number(b)-Number(d);
 
     t3.value = c;
 
@@ -35,8 +36,9 @@ function division(){
 
     var a = document.getElementById("t1").value;
     var b = document.getElementById("t2").value;
+    var d = document.getElementById("t5").value;
     
-    var c = Number(a)/Number(b);
+    var c = Number(a)/Number(b)/Number(d);
 
     t3.value = c;
 
