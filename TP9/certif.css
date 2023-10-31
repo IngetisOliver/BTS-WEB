@@ -1,0 +1,41 @@
+@keyframes multicolorBorder {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: orange; }
+    100% { border-color: purple; }
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.I1{
+    width: 25%;
+    margin-top: 10%;
+    
+    border-radius: 10px;
+
+    border: 5px solid;
+    border-image: linear-gradient(0deg, red, blue, green, orange, purple) 1;
+    border-image-slice: 1;
+    animation: multicolorBorder 15s linear infinite;
+
+    
+    
+}
+
+img:hover{
+    transform: scale(1.9);
+}
+
+
+
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #44e8f7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
