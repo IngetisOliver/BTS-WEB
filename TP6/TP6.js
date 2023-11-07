@@ -54,11 +54,11 @@ function simple_affichage(){
 
     document.body.style.backgroundColor = randomColor;
 
-    setInterval(test_couleur, 4000);
+    
 }*/
 
 function test_couleur(){
-    let c = prompt ("Donner une couleur :");
+    let c = prompt ("Donner une couleur, si c'est pas rouge,rose,bleu ou vert, je met un couleur en random:");
     if(c == "rouge" || c == "ROUGE"){
         document.body.style.background = 'red';
     }
@@ -73,7 +73,14 @@ function test_couleur(){
     }
     
     else{
-        document.write("Couleur non compris");
+        /*document.write("Couleur non compris");*/
+        var red = Math.floor(Math.random() * 256);
+        var green = Math.floor(Math.random() * 256);
+        var blue = Math.floor(Math.random() * 256);
+
+        var randomColor = "rgb(" + red + ", " + green + ", " + blue + ")";
+
+        document.body.style.backgroundColor = randomColor;
     }
 }
 

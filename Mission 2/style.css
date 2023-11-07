@@ -29,6 +29,12 @@ main {
     padding: 20px;
 }
 
+.icon{
+    /*border: solid 1px red;*/
+    width: 25%;
+    float: right;
+}
+
 .c1 h1 {
     font-size: 24px;
     clear: right;
@@ -67,6 +73,17 @@ img {
 
 .centre{
     text-align: center;
+}
+
+.pos{
+    /*border: solid 1px red;*/
+    width: 20%;
+    margin-top: 25%;
+    top: -150px;
+    position: relative;
+    
+    
+   
 }
 
 
