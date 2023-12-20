@@ -2,10 +2,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
-    background: url(./bg\ punk.png)no-repeat center fixed;
+    background: url(./totoro.gif)no-repeat center fixed;
     background-size: cover;
     height: 100%;
 	width: 100%;
+    
 
 }
 
@@ -39,7 +40,7 @@ nav input[type=checkbox]{
 
 nav{
     width: 100%;
-    background-color: rgb(72, 68, 68);
+    background-color: #5684ae;
 }
 
 nav > ul > li{
@@ -83,28 +84,28 @@ nav li:hover .submenu{
 .submenu li a{
     padding: 15px 30px;
     font-size: 13px;
-    color: rgb(153, 0, 255);
+    color: #280137;
     width: 270px;
 }
 
 .htmlmen:hover{
-    border-top: 5px solid #e44d26;
-    background-color: rgba(228, 77, 38, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 .cssmen:hover{
-    border-top: 5px solid #0070bb;
-    background-color: rgba(000, 112, 192, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 .jsmen:hover{
-    border-top: 5px solid #f1dc4f;
-    background-color: rgba(241, 211, 79, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 .contactmen:hover{
-    border-top: 5px solid #bbb;
-    background-color: rgba(220, 220, 220, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 nav>ul>li:hover a{
@@ -112,32 +113,32 @@ nav>ul>li:hover a{
 }
 
 .htmlmen .submenu{
-    background-color:rgb(230, 100, 38) ;
+    background-color:#448ee4 ;
 }
 
 .cssmen .submenu{
-    background-color:rgb(10, 154, 244) ;
+    background-color:#448ee4 ;
 }
 
 .jsmen .submenu{
-    background-color:rgb(227, 255, 19) ;
+    background-color:#448ee4 ;
 }
 
 .submenu li:hover a{
-    color: #EEE;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .htmlmen .submenu li:hover{
-    background-color:rgb(210, 77, 38) ;
+    background-color:#0241e2 ;
 }
 
 .cssmen .submenu li:hover{
-    background-color:rgb(000, 115, 244) ;
+    background-color:#0241e2 ;
 }
 
 .jsmen .submenu li:hover{
-    background-color:rgb(255, 255, 19) ;
+    background-color:#0241e2 ;
 }
 
 nav input[type=checkbox]:checked ~ ul{
@@ -173,31 +174,31 @@ nav input[type=checkbox]:checked ~ ul{
 }
 
 .missionsmen:hover{
-    border-top: 5px solid #9f00bb;
-    background-color: rgba(000, 112, 192, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 
 .missionsmen .submenu{
-    background-color:rgb(244, 10, 166) ;
+    background-color:#448ee4 ;
 }
 
 .missionsmen .submenu li:hover{
-    background-color:rgb(244, 0, 220) ;
+    background-color:#0241e2 ;
 }
 
 .certifmen:hover{
-    border-top: 5px solid #ff0404;
-    background-color: rgba(000, 112, 192, 0.15);
+    border-top: 5px solid #0203e2;
+    background-color: rgba(2, 3, 226, 0.15);
 }
 
 
 .certifmen .submenu{
-    background-color:rgb(244, 22, 10) ;
+    background-color:#448ee4 ;
 }
 
 .certifmen .submenu li:hover{
-    background-color:rgb(232, 37, 3) ;
+    background-color:#0241e2 ;
 }
 
 
